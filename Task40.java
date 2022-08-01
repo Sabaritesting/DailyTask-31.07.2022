@@ -1,0 +1,23 @@
+package Task4;
+
+import java.util.Collections;
+import java.util.LinkedList;
+
+public class Task40 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 LinkedList <String> l_list = new LinkedList <String> ();
+		  // use add() method to add values in the linked list
+		  l_list.add("Red");
+		  l_list.add("Green");
+		  l_list.add("Black");
+		  l_list.add("Pink");
+		  l_list.add("orange");
+		  // print the list
+		  System.out.println("Linked list before shuffling:\n" + l_list);  
+		  Collections.shuffle(l_list);
+		  System.out.println("Linked list after shuffling:\n" + l_list); 
+	}
+
+}
